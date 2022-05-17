@@ -1,4 +1,4 @@
-# #01 자료구조와 알고리즘의 이해 (11 ~ 45p.g)
+# 📌#01 자료구조와 알고리즘의 이해 (11 ~ 45p.g)
 <img width="600" alt="스크린샷 2022-05-17 오후 3 55 06" src="https://user-images.githubusercontent.com/95270655/168748123-45632481-76c6-4dfb-b12f-253fdb7d47c1.png">
 
 ### 순차 탐색 알고리즘
@@ -77,7 +77,7 @@ int BSearch(int ar[], int len, int target)
 
 *****
 
-# #02 재귀 Recursion (49 ~ 64p.g)
+# 📌#02 재귀 Recursion (49 ~ 64p.g)
 <img width="462" alt="스크린샷 2022-05-17 오후 7 47 50" src="https://user-images.githubusercontent.com/95270655/168794362-9e305b6b-9da7-4dfe-81f1-ebb47c4aaf8b.png">
 
 ### 재귀함수 
