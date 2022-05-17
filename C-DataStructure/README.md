@@ -178,7 +178,7 @@ void HanoiTowerMove(int num, char from, char by, char to)
 {
     if(num == 1)
     {
-      printf("원반1을 %c에서 %cfㅗ 이동\n", from, to);
+      printf("원반1을 %c에서 %c로 이동\n", from, to);
     }
     else
     {
@@ -195,3 +195,13 @@ int main(void)
   return 0;
 }
 ```
+### 하노이 타워 재귀함수 실행결과
+`
+원반1을 A에서 C로 이동
+원반2을(를) A에서 B로 이동
+원반1을 C에서 B로 이동
+원반3을(를) A에서 C로 이동
+원반1을 B에서 A로 이동
+원반2을(를) B에서 C로 이동
+원반1을 A에서 C로 이동
+`
