@@ -77,4 +77,14 @@ int BSearch(int ar[], int len, int target)
 
 *****
 
-# #02 재귀 Recursion
+# #02 재귀 Recursion (49 ~ 64p.g)
+<img width="462" alt="스크린샷 2022-05-17 오후 7 47 50" src="https://user-images.githubusercontent.com/95270655/168794362-9e305b6b-9da7-4dfe-81f1-ebb47c4aaf8b.png">
+
+<img width="460" alt="스크린샷 2022-05-17 오후 7 48 14" src="https://user-images.githubusercontent.com/95270655/168794422-5d513e1b-858b-49b8-b999-30e04c78d4d1.png">
+
+<img width="464" alt="스크린샷 2022-05-17 오후 7 48 35" src="https://user-images.githubusercontent.com/95270655/168794465-95ec749b-9f96-4ca7-97bc-b80010d1a988.png">
+
+<img width="464" alt="스크린샷 2022-05-17 오후 7 48 58" src="https://user-images.githubusercontent.com/95270655/168794529-71e51152-577a-49fc-850a-cfbf65c3fc15.png">
+
+<img width="467" alt="스크린샷 2022-05-17 오후 7 49 14" src="https://user-images.githubusercontent.com/95270655/168794589-889021dd-0f7f-4672-a758-b38d56591df3.png">
+
