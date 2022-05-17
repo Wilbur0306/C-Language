@@ -1,6 +1,42 @@
 # #01 자료구조와 알고리즘의 이해 (11 ~ 45p.g)
 <img width="600" alt="스크린샷 2022-05-17 오후 3 55 06" src="https://user-images.githubusercontent.com/95270655/168748123-45632481-76c6-4dfb-b12f-253fdb7d47c1.png">
 
+### 순차 탐색 알고리즘
+```c
+#include <stdio.h>
+
+int LSearch(int ar[], int len, int target)
+{
+  int i;
+  for(i = 0; i < len; i++)
+  {
+    if(ar[i] == target)
+        return i;  //찾은 대상의 인덱스 값 반환
+  )
+  return -1;  //찾지 못했음을 의미하는 값 반환
+}
+
+int main(void)
+{
+  int arr[] = {3, 5, 2, 4, 9};
+  int idxl
+  
+  idx = LSearch(arr, sizeof(arr)/sizeof(int), 4);
+  if(idx == -1)
+    printf("탐색 실패\n");
+  else
+    printf("타겟 저장 인덱스: %d\n", idx);
+    
+  idx = LSearch(arr, sizeof(arr)/sizeof(int), 7)
+  if(idx = -1)
+    printf("탐색 실패\n");
+  else
+    printf("타켓 저장 인덱스: %d\n", idx);
+    
+  return 0;
+}
+```
+
 <img width="488" alt="스크린샷 2022-05-17 오후 3 58 55" src="https://user-images.githubusercontent.com/95270655/168748786-100bfde4-c8fb-42f9-981c-03727c1055ac.png">
 
 <img width="490" alt="스크린샷 2022-05-17 오후 3 59 11" src="https://user-images.githubusercontent.com/95270655/168748827-00ff3cb2-ce29-4790-a189-106190b3bee1.png">
