@@ -170,3 +170,28 @@ int main(void)
 
 <img width="467" alt="스크린샷 2022-05-17 오후 7 49 14" src="https://user-images.githubusercontent.com/95270655/168794589-889021dd-0f7f-4672-a758-b38d56591df3.png">
 
+### 하노이 타워 재귀함수
+```c
+#include <stdio.h>
+
+void HanoiTowerMove(int num, char from, char by, char to)
+{
+    if(num == 1)
+    {
+      printf("원반1을 %c에서 %cfㅗ 이동\n", from, to);
+    }
+    else
+    {
+      HanoiTowerMove(num-1, from, to, by);
+      printf("원반 %d을(를) %c에서 %c로 이동 \n", num, from, to);
+      HanoiTowerMove(num-1, by, from, to);
+    }
+}
+
+int main(void)
+{
+  //막대 A의 원반 3개를 막대B에 경유하여 막대C로 옮기기
+  HanoiTowerMove(3, 'A', 'B', 'C');
+  return 0;
+}
+```
