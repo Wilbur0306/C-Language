@@ -37,6 +37,36 @@ int main(void)
 }
 ```
 
+### 이진 탐색 알고리즘
+```c
+#include <stdio.h>
+
+int BSearch(int ar[], int len, int target)
+{
+  int first = 0;  //탐색 대상의 시작 인덱스 값 
+  int last  = len - 1;  //탐색 대상의 마지막 인덱스 값
+  int mid;
+  
+  while(first <= last)
+  {
+    mid = (first + last)/2;  //탐색 대상의 중앙을 찾는다
+    
+    if(target == ar[mid])  //중앙에 저장된 것이 타겟이라면
+    {
+      return mid;   //탐색 완료!
+    }
+    else    //타겟이 아니라면 탐색 대상을 반으로 줄인다
+    {
+      if(target < ar[mid])
+        last = mid -1;
+      else
+        first = mid + 1;
+    }
+  }
+  return -1;
+}
+```
+
 <img width="488" alt="스크린샷 2022-05-17 오후 3 58 55" src="https://user-images.githubusercontent.com/95270655/168748786-100bfde4-c8fb-42f9-981c-03727c1055ac.png">
 
 <img width="490" alt="스크린샷 2022-05-17 오후 3 59 11" src="https://user-images.githubusercontent.com/95270655/168748827-00ff3cb2-ce29-4790-a189-106190b3bee1.png">
