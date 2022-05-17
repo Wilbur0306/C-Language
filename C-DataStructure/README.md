@@ -80,6 +80,25 @@ int BSearch(int ar[], int len, int target)
 # #02 재귀 Recursion (49 ~ 64p.g)
 <img width="462" alt="스크린샷 2022-05-17 오후 7 47 50" src="https://user-images.githubusercontent.com/95270655/168794362-9e305b6b-9da7-4dfe-81f1-ebb47c4aaf8b.png">
 
+### 재귀함수 
+```c
+#include <stdio.h>
+
+void Recursive(int num)
+{
+  if(num <= 0). //재귀의 탈출조건
+    return;   //재귀의 탈출!
+  printf("Recursice call! %d\n", num);
+  Recursive(num -1);
+}
+
+int main(void)
+{
+  Recursive(3);
+  return 0;
+}
+```
+
 <img width="460" alt="스크린샷 2022-05-17 오후 7 48 14" src="https://user-images.githubusercontent.com/95270655/168794422-5d513e1b-858b-49b8-b999-30e04c78d4d1.png">
 
 <img width="464" alt="스크린샷 2022-05-17 오후 7 48 35" src="https://user-images.githubusercontent.com/95270655/168794465-95ec749b-9f96-4ca7-97bc-b80010d1a988.png">
