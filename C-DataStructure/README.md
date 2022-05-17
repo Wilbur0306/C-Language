@@ -101,6 +101,30 @@ int main(void)
 
 <img width="460" alt="스크린샷 2022-05-17 오후 7 48 14" src="https://user-images.githubusercontent.com/95270655/168794422-5d513e1b-858b-49b8-b999-30e04c78d4d1.png">
 
+### 피보나치 수열
+```c
+#include <stdio.h>
+
+int Fibo(int n)
+{
+  if(n == 1)
+    return 0;
+  else if(n == 2)
+    return 1;
+  else
+    return Fibo(n-1) + Fibo(n-2);
+}
+
+int main(void)
+{
+  int i;
+  for(i = 1; i < 15; i++)
+    printf("%d ", Fibo(i));
+    
+  return 0;
+}
+```
+
 <img width="464" alt="스크린샷 2022-05-17 오후 7 48 35" src="https://user-images.githubusercontent.com/95270655/168794465-95ec749b-9f96-4ca7-97bc-b80010d1a988.png">
 
 <img width="464" alt="스크린샷 2022-05-17 오후 7 48 58" src="https://user-images.githubusercontent.com/95270655/168794529-71e51152-577a-49fc-850a-cfbf65c3fc15.png">
